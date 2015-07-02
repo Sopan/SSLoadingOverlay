@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>18121BCA-659E-44CF-9B15-7FB56AEEB3C4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AB2BFA1A05D69BC6203BEC541F265B60DA688366</key>
+		<string>gitlab.sd.apple.com:remobile/windward.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SSLoadingOverlay/SSLoadingOverlay.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AB2BFA1A05D69BC6203BEC541F265B60DA688366</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>gitlab.sd.apple.com:remobile/windward.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AB2BFA1A05D69BC6203BEC541F265B60DA688366</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AB2BFA1A05D69BC6203BEC541F265B60DA688366</string>
+			<key>IDESourceControlWCCName</key>
+			<string>windward</string>
+		</dict>
+	</array>
+</dict>
+</plist>

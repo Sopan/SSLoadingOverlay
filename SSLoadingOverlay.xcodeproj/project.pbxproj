@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7ABB76C1B3CDFEB004BF1C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ABB76B1B3CDFEB004BF1C3 /* main.m */; };
+		C7ABB76F1B3CDFEB004BF1C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ABB76E1B3CDFEB004BF1C3 /* AppDelegate.m */; };
+		C7ABB7721B3CDFEB004BF1C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ABB7711B3CDFEB004BF1C3 /* ViewController.m */; };
+		C7ABB7751B3CDFEB004BF1C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7ABB7731B3CDFEB004BF1C3 /* Main.storyboard */; };
+		C7ABB7771B3CDFEB004BF1C3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7ABB7761B3CDFEB004BF1C3 /* Images.xcassets */; };
+		C7ABB77A1B3CDFEB004BF1C3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7ABB7781B3CDFEB004BF1C3 /* LaunchScreen.xib */; };
+		C7ABB7861B3CDFEB004BF1C3 /* SSLoadingOverlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ABB7851B3CDFEB004BF1C3 /* SSLoadingOverlayTests.m */; };
+		C7ABB7911B3CE08E004BF1C3 /* SSOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ABB7901B3CE08E004BF1C3 /* SSOverlayView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7ABB7801B3CDFEB004BF1C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7ABB75E1B3CDFEB004BF1C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7ABB7651B3CDFEB004BF1C3;
+			remoteInfo = SSLoadingOverlay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C7ABB7661B3CDFEB004BF1C3 /* SSLoadingOverlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSLoadingOverlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7ABB76A1B3CDFEB004BF1C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7ABB76B1B3CDFEB004BF1C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C7ABB76D1B3CDFEB004BF1C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C7ABB76E1B3CDFEB004BF1C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C7ABB7701B3CDFEB004BF1C3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C7ABB7711B3CDFEB004BF1C3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C7ABB7741B3CDFEB004BF1C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7ABB7761B3CDFEB004BF1C3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C7ABB7791B3CDFEB004BF1C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C7ABB77F1B3CDFEB004BF1C3 /* SSLoadingOverlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSLoadingOverlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7ABB7841B3CDFEB004BF1C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7ABB7851B3CDFEB004BF1C3 /* SSLoadingOverlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSLoadingOverlayTests.m; sourceTree = "<group>"; };
+		C7ABB78F1B3CE08E004BF1C3 /* SSOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSOverlayView.h; path = ../SSOverlayView.h; sourceTree = "<group>"; };
+		C7ABB7901B3CE08E004BF1C3 /* SSOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSOverlayView.m; path = ../SSOverlayView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7ABB7631B3CDFEB004BF1C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7ABB77C1B3CDFEB004BF1C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7ABB75D1B3CDFEB004BF1C3 = {
+			isa = PBXGroup;
+			children = (
+				C7ABB7681B3CDFEB004BF1C3 /* SSLoadingOverlay */,
+				C7ABB7821B3CDFEB004BF1C3 /* SSLoadingOverlayTests */,
+				C7ABB7671B3CDFEB004BF1C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7ABB7671B3CDFEB004BF1C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7ABB7661B3CDFEB004BF1C3 /* SSLoadingOverlay.app */,
+				C7ABB77F1B3CDFEB004BF1C3 /* SSLoadingOverlayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7ABB7681B3CDFEB004BF1C3 /* SSLoadingOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				C7ABB76D1B3CDFEB004BF1C3 /* AppDelegate.h */,
+				C7ABB76E1B3CDFEB004BF1C3 /* AppDelegate.m */,
+				C7ABB7701B3CDFEB004BF1C3 /* ViewController.h */,
+				C7ABB7711B3CDFEB004BF1C3 /* ViewController.m */,
+				C7ABB78F1B3CE08E004BF1C3 /* SSOverlayView.h */,
+				C7ABB7901B3CE08E004BF1C3 /* SSOverlayView.m */,
+				C7ABB7731B3CDFEB004BF1C3 /* Main.storyboard */,
+				C7ABB7761B3CDFEB004BF1C3 /* Images.xcassets */,
+				C7ABB7781B3CDFEB004BF1C3 /* LaunchScreen.xib */,
+				C7ABB7691B3CDFEB004BF1C3 /* Supporting Files */,
+			);
+			path = SSLoadingOverlay;
+			sourceTree = "<group>";
+		};
+		C7ABB7691B3CDFEB004BF1C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7ABB76A1B3CDFEB004BF1C3 /* Info.plist */,
+				C7ABB76B1B3CDFEB004BF1C3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7ABB7821B3CDFEB004BF1C3 /* SSLoadingOverlayTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7ABB7851B3CDFEB004BF1C3 /* SSLoadingOverlayTests.m */,
+				C7ABB7831B3CDFEB004BF1C3 /* Supporting Files */,
+			);
+			path = SSLoadingOverlayTests;
+			sourceTree = "<group>";
+		};
+		C7ABB7831B3CDFEB004BF1C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7ABB7841B3CDFEB004BF1C3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7ABB7651B3CDFEB004BF1C3 /* SSLoadingOverlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7ABB7891B3CDFEB004BF1C3 /* Build configuration list for PBXNativeTarget "SSLoadingOverlay" */;
+			buildPhases = (
+				C7ABB7621B3CDFEB004BF1C3 /* Sources */,
+				C7ABB7631B3CDFEB004BF1C3 /* Frameworks */,
+				C7ABB7641B3CDFEB004BF1C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSLoadingOverlay;
+			productName = SSLoadingOverlay;
+			productReference = C7ABB7661B3CDFEB004BF1C3 /* SSLoadingOverlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7ABB77E1B3CDFEB004BF1C3 /* SSLoadingOverlayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7ABB78C1B3CDFEB004BF1C3 /* Build configuration list for PBXNativeTarget "SSLoadingOverlayTests" */;
+			buildPhases = (
+				C7ABB77B1B3CDFEB004BF1C3 /* Sources */,
+				C7ABB77C1B3CDFEB004BF1C3 /* Frameworks */,
+				C7ABB77D1B3CDFEB004BF1C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7ABB7811B3CDFEB004BF1C3 /* PBXTargetDependency */,
+			);
+			name = SSLoadingOverlayTests;
+			productName = SSLoadingOverlayTests;
+			productReference = C7ABB77F1B3CDFEB004BF1C3 /* SSLoadingOverlayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7ABB75E1B3CDFEB004BF1C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SS;
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Sopan Sharma";
+				TargetAttributes = {
+					C7ABB7651B3CDFEB004BF1C3 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					C7ABB77E1B3CDFEB004BF1C3 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = C7ABB7651B3CDFEB004BF1C3;
+					};
+				};
+			};
+			buildConfigurationList = C7ABB7611B3CDFEB004BF1C3 /* Build configuration list for PBXProject "SSLoadingOverlay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7ABB75D1B3CDFEB004BF1C3;
+			productRefGroup = C7ABB7671B3CDFEB004BF1C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7ABB7651B3CDFEB004BF1C3 /* SSLoadingOverlay */,
+				C7ABB77E1B3CDFEB004BF1C3 /* SSLoadingOverlayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7ABB7641B3CDFEB004BF1C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7ABB7751B3CDFEB004BF1C3 /* Main.storyboard in Resources */,
+				C7ABB77A1B3CDFEB004BF1C3 /* LaunchScreen.xib in Resources */,
+				C7ABB7771B3CDFEB004BF1C3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7ABB77D1B3CDFEB004BF1C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7ABB7621B3CDFEB004BF1C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7ABB7721B3CDFEB004BF1C3 /* ViewController.m in Sources */,
+				C7ABB7911B3CE08E004BF1C3 /* SSOverlayView.m in Sources */,
+				C7ABB76F1B3CDFEB004BF1C3 /* AppDelegate.m in Sources */,
+				C7ABB76C1B3CDFEB004BF1C3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7ABB77B1B3CDFEB004BF1C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7ABB7861B3CDFEB004BF1C3 /* SSLoadingOverlayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7ABB7811B3CDFEB004BF1C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7ABB7651B3CDFEB004BF1C3 /* SSLoadingOverlay */;
+			targetProxy = C7ABB7801B3CDFEB004BF1C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C7ABB7731B3CDFEB004BF1C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7ABB7741B3CDFEB004BF1C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C7ABB7781B3CDFEB004BF1C3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7ABB7791B3CDFEB004BF1C3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7ABB7871B3CDFEB004BF1C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7ABB7881B3CDFEB004BF1C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7ABB78A1B3CDFEB004BF1C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SSLoadingOverlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C7ABB78B1B3CDFEB004BF1C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SSLoadingOverlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C7ABB78D1B3CDFEB004BF1C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SSLoadingOverlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSLoadingOverlay.app/SSLoadingOverlay";
+			};
+			name = Debug;
+		};
+		C7ABB78E1B3CDFEB004BF1C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SSLoadingOverlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSLoadingOverlay.app/SSLoadingOverlay";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7ABB7611B3CDFEB004BF1C3 /* Build configuration list for PBXProject "SSLoadingOverlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7ABB7871B3CDFEB004BF1C3 /* Debug */,
+				C7ABB7881B3CDFEB004BF1C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7ABB7891B3CDFEB004BF1C3 /* Build configuration list for PBXNativeTarget "SSLoadingOverlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7ABB78A1B3CDFEB004BF1C3 /* Debug */,
+				C7ABB78B1B3CDFEB004BF1C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C7ABB78C1B3CDFEB004BF1C3 /* Build configuration list for PBXNativeTarget "SSLoadingOverlayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7ABB78D1B3CDFEB004BF1C3 /* Debug */,
+				C7ABB78E1B3CDFEB004BF1C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7ABB75E1B3CDFEB004BF1C3 /* Project object */;
+}
